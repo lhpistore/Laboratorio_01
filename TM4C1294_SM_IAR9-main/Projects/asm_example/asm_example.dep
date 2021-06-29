@@ -4,9 +4,7 @@
     <fileChecksum>3578987012</fileChecksum>
     <configuration>
         <name>Debug</name>
-        <outputs>
-            <file>$PROJ_DIR$\src\asm.s</file>
-        </outputs>
+        <outputs />
         <forcedrebuild>
             <name>[REBUILD_ALL]</name>
         </forcedrebuild>

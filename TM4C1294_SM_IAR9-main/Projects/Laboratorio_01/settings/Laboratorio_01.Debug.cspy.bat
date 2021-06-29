@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\Pastas Locais\Documentos\IAR projetos\TM4C1294_SM_IAR9-main\Projects\Laboratorio_01\settings\Laboratorio_01.Debug.general.xcl" --backend -f "D:\Pastas Locais\Documentos\IAR projetos\TM4C1294_SM_IAR9-main\Projects\Laboratorio_01\settings\Laboratorio_01.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\Pastas Locais\Documentos\IAR projetos\Laboratorio_01-main\TM4C1294_SM_IAR9-main\Projects\Laboratorio_01\settings\Laboratorio_01.Debug.general.xcl" --backend -f "D:\Pastas Locais\Documentos\IAR projetos\Laboratorio_01-main\TM4C1294_SM_IAR9-main\Projects\Laboratorio_01\settings\Laboratorio_01.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\Pastas Locais\Documentos\IAR projetos\TM4C1294_SM_IAR9-main\Projects\Laboratorio_01\settings\Laboratorio_01.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\Pastas Locais\Documentos\IAR projetos\TM4C1294_SM_IAR9-main\Projects\Laboratorio_01\settings\Laboratorio_01.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\Pastas Locais\Documentos\IAR projetos\Laboratorio_01-main\TM4C1294_SM_IAR9-main\Projects\Laboratorio_01\settings\Laboratorio_01.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\Pastas Locais\Documentos\IAR projetos\Laboratorio_01-main\TM4C1294_SM_IAR9-main\Projects\Laboratorio_01\settings\Laboratorio_01.Debug.driver.xcl" 
 
 @echo off 
 :end
